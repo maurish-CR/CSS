@@ -1,0 +1,69 @@
+/*Existen 4 tipos de selectores de CSS
+El primero seria por elemetno global: Se utiliza indicado cual es la
+etiqueta de HTML a la cual se quiere modificar*/
+h1{
+    color: turquoise;
+    text-align: left;
+}
+/*El segundo tipo es por medio del id que se le asigo en la etiqueta
+de HTML del elemento*/
+#h2-id{
+    color: tomato;
+    text-align: center;
+}
+/*El tercer metodo es por medio de la clase que se le asigno en la 
+etiqueta de HTML del elemento*/
+.p-1{
+    color: violet;
+    text-align: right;
+    font-size: 30px;
+}
+/*El cuarto metodo serial el de manera Universal, este afeacta a TODOS
+los elementos dentro del HTML sin expecion
+*{
+    color: black
+    text-align: center
+}
+*/
+
+/*Color de background*/
+.colback{
+    background-color: blue;
+}
+/*Color de texto*/
+.coltext{
+    color: chartreuse;
+}
+/*Color del borde*/
+.colborder{
+    border: 2px solid cyan;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Titulo{
+    color: blanchedalmond;
+    font-size: 40px;
+    text-align: center;
+}
+.container-1{
+    background-color: black;
+}
