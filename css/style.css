@@ -40,9 +40,110 @@ los elementos dentro del HTML sin expecion
 }
 
 
+/*Cambiar el color del background*/
+.bgcolor{
+    background-color: darkcyan;
+    /*Cambiar la opacidad del fondo*/
+    opacity: 70%;
+}
+/*Agregar una imagen de fondo de pantalla */
+.bgimage{
+    background-image: url(../media/foto.jpg);
+    /*Hacer que a imagen se repita*/
+    background-repeat: repeat-x;
+    /*Posicionar la imagen en cierto lado*/
+    background-position: right top;
+    /*Permitir que la imagen no se mueva con el scroll*/
+    background-attachment: fixed;
+    /*Permitir que la imagen se mueva con el scroll*/
+    background-attachment: scroll;
+}
 
 
+/*Borde dotted*/
+.borde-1{
+    border: dotted;
+}
+/*Borde dashed*/
+.borde-2{
+    border: dashed;
+}
+/*Borde solid*/
+.borde-3{
+    border: solid;
+}
+/*Borde double*/
+.borde-4{
+    border: double;
+}
+/*Borde groove*/
+.borde-5{
+    border: groove;
+}
+/*Borde ridge*/
+.borde-6{
+    border: ridge;
+}
+/*Borde inset*/
+.borde-7{
+    border: inset;
+}
+/*Borde outset*/
+.borde-8{
+    border: outset;
+}
+/*Borde none*/
+.borde-9{
+    border: none;
+}
+/*Borde hidden*/
+.borde-10{
+    border: hidden;
+}
+/*Grosor del borde*/
+.borde-w{
+    border: dotted;
+    border-width: 15px;
+}
+/*Color del borde*/
+.borde-c{
+    border: solid;
+    border-width: 15px;
+    border-color: white;
+}
+/*Diferentes estilos y colores en los bordes*/
+.borde-s{
+    border-top: dotted;
+    border-top-color: firebrick;
+    border-right: solid;
+    border-right-color: forestgreen;
+    border-bottom: dotted;
+    border-bottom-color: gold;
+    border-left: solid;
+    border-left-color: hotpink ;
+}
+/*Bordes redondeados*/
+.borde-r{
+    border: black 10px solid;
+    border-radius: 10px;
+}
 
+
+/*Modificar los margenes de los elementos*/
+.margins{
+    background-image: url(../media/foto.jpg);
+    border: greenyellow 20px solid;
+    margin: 100px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+/*Margen colapsado*/
+.margins-c{
+    background-color: white;
+    border: greenyellow 20px solid;
+    margin: 20px 0 0 0;
+}
 
 
 
@@ -60,10 +161,13 @@ los elementos dentro del HTML sin expecion
 
 
 .Titulo{
-    color: blanchedalmond;
+    color: greenyellow;
     font-size: 40px;
     text-align: center;
 }
 .container-1{
     background-color: black;
+}
+.container-2{
+    background-color: blue;
 }
